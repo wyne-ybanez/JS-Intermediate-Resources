@@ -5,6 +5,7 @@
 In JavaScript, the import and export keywords are used to include code from one JavaScript file (or module) into another, and to export variables, functions, or objects from a JavaScript file so that they can be used in other parts of your code. This enables modular programming, which is a key feature of modern JavaScript development.
 
 In the example, the food.js file exports the someVariable and someFunction variables, which are then imported and used in the index.js file. This allows you to write reusable code and organize your project into logical modules.
+
 ---
 
 ### Map() & Filter()
@@ -14,6 +15,7 @@ In JavaScript, the map() and filter() methods are array methods that allow you t
 The map() method creates a new array by calling a provided function on every element in the calling array.
 
 The filter() method, on the other hand, creates a new array with all elements that pass the test (truthy or falsey) implemented by the provided function.
+
 ---
 
 ### Spread Syntax
