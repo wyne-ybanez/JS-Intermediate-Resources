@@ -18,7 +18,7 @@ The filter() method, on the other hand, creates a new array with all elements th
 
 ---
 
-### Spread Syntax
+### Spread Syntax
 
 In JavaScript, the spread syntax allows an iterable (such as an array or string) to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
 
