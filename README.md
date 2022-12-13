@@ -1,6 +1,6 @@
 # JS Intermediate Resources
 
-### ES6 Import & Export
+<h3>ES6 Import & Export</h3>
 
 In JavaScript, the import and export keywords are used to include code from one JavaScript file (or module) into another, and to export variables, functions, or objects from a JavaScript file so that they can be used in other parts of your code. This enables modular programming, which is a key feature of modern JavaScript development.
 
@@ -18,7 +18,7 @@ The `filter()` method, on the other hand, creates a new array with all elements 
 
 ---
 
-### Spread Syntax
+<h3>Spread Syntax</h3> 
 
 In JavaScript, the spread syntax allows an iterable (such as an array or string) to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
 
@@ -32,7 +32,7 @@ Overall, the spread syntax is a convenient way to expand arrays and objects in J
 
 ---
 
-### Fetch & Promises
+<h3>Fetch & Promises</h3> 
 
 The global `fetch()` method starts the process of fetching a resource from the network, returning a promise which is fulfilled once the response is available.
 
@@ -42,7 +42,7 @@ A `fetch()` promise only rejects when a network error is encountered (which is u
 
 ---
 
-### Async Await
+<h3>Async Await</h3> 
 
 Async functions can contain zero or more await expressions. Await expressions make promise-returning functions behave as though they're synchronous by suspending execution until the returned promise is fulfilled or rejected. The resolved value of the promise is treated as the return value of the await expression. Use of async and await enables the use of ordinary try / catch blocks around asynchronous code.
 
