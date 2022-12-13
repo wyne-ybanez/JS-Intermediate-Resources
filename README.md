@@ -8,7 +8,7 @@ In the example, the food.js file exports the someVariable and someFunction varia
 
 ---
 
-### Map() & Filter()
+### Map & Filter
 
 In JavaScript, the map() and filter() methods are array methods that allow you to manipulate arrays in a functional style.
 
