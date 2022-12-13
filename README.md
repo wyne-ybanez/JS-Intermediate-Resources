@@ -8,7 +8,7 @@ In the example, the food.js file exports the someVariable and someFunction varia
 
 ---
 
-### Map & Filter
+<h3>Map & Filter</h3>
 
 In JavaScript, the map() and filter() methods are array methods that allow you to manipulate arrays in a functional style.
 
@@ -29,3 +29,9 @@ In example, the '...numbers' syntax expands the numbers array and inserts its el
 You can also add new values to an object or array by using a comma and adding a value via spread syntax `const sampleObject = {...blog, blogVar: 1} `
 
 Overall, the spread syntax is a convenient way to expand arrays and objects in JavaScript, allowing you to avoid using the Array.prototype.concat() method or writing complex destructuring patterns.
+
+--- 
+
+### Fetch & Promises 
+
+
