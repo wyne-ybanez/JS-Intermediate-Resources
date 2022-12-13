@@ -10,11 +10,11 @@ In the example, the food.js file exports the someVariable and someFunction varia
 
 <h3>Map & Filter</h3>
 
-In JavaScript, the map() and filter() methods are array methods that allow you to manipulate arrays in a functional style.
+In JavaScript, the `map()` and `filter()` methods are array methods that allow you to manipulate arrays in a functional style.
 
-The map() method creates a new array by calling a provided function on every element in the calling array.
+The `map()` method creates a new array by calling a provided function on every element in the calling array.
 
-The filter() method, on the other hand, creates a new array with all elements that pass the test (truthy or falsey) implemented by the provided function.
+The `filter()` method, on the other hand, creates a new array with all elements that pass the test (truthy or falsey) implemented by the provided function.
 
 ---
 
@@ -30,8 +30,20 @@ You can also add new values to an object or array by using a comma and adding a 
 
 Overall, the spread syntax is a convenient way to expand arrays and objects in JavaScript, allowing you to avoid using the Array.prototype.concat() method or writing complex destructuring patterns.
 
---- 
+---
 
-### Fetch & Promises 
+### Fetch & Promises
 
+The global `fetch()` method starts the process of fetching a resource from the network, returning a promise which is fulfilled once the response is available.
 
+The promise resolves to the Response object representing the response to your request.
+
+A `fetch()` promise only rejects when a network error is encountered (which is usually when there's a permissions issue or similar). A `fetch()` promise does not reject on HTTP errors (404, etc.). Instead, a then() handler must check the Response.ok and/or Response.status properties.
+
+---
+
+### Async Await
+
+Async functions can contain zero or more await expressions. Await expressions make promise-returning functions behave as though they're synchronous by suspending execution until the returned promise is fulfilled or rejected. The resolved value of the promise is treated as the return value of the await expression. Use of async and await enables the use of ordinary try / catch blocks around asynchronous code.
+
+Code after each await expression can be thought of as existing in a `.then ` callback. In this way a promise chain is progressively constructed with each reentrant step through the function.
